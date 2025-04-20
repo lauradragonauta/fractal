@@ -8,12 +8,12 @@
 
 let x = 0;
 let y = 0;
-let w = 400; // Tamaño del ancho inicial
-let h = 400; // Tamaño de la altura inicial
+let w = 200; // Tamaño del ancho inicial
+let h = 200; // Tamaño de la altura inicial
 let count = 3; // Número de recursiones inicial
 
 function setup() {
-  createCanvas(800, 800); // Creamos un lienzo de 800x800 píxeles
+  createCanvas(400, 300); // Creamos un lienzo de 800x800 píxeles
 }
 
 function draw() {
