@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(220); // Fondo gris claro
+ // background(220); // Fondo gris claro
   translate(width / 2, height / 2); // Movemos el origen al centro del lienzo
   count = map(mouseX, 0, width, 0, 5); // Cambia el número de recursiones según la posición del ratón
   fractal(x, y, w, h, count); // Llamada a la función fractal con los parámetros iniciales
